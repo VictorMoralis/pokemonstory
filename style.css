@@ -11,25 +11,51 @@ body {
 	margin-right: auto;
 }
 body#background {
-	background-image: url("img/001.png");
+	background-image: url("sources/001.png");
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #banner {
 	width: 100%;
 }
-
-.rechthoek{
-    width: 900px;
-    height: 35px;
-    border: 1px solid black;
-    
+.bar {
+	width: 100%;
+	background-color: rgb(247,218,92);	
 }
-.geel{
-    background-color: yellow;
+.bar p {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
-
-table, th, td {
-			border: 1px solid black;
-			border-collapse: collapse;
-		}
+.paragraaf {
+	text-indent: 50px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid rgba(127, 127, 127, 0.5);
+	padding: 10px;
+}
+.rechts {
+	text-align: right;
+}
+.type {
+	text-align: center;
+}
+.type img {
+	width: 20px;
+	color: black;
+}
+.afbeelding {
+	text-align: center;
+}
+.afbeelding img {
+	width: 40px;
+}
+li img {
+	width: 16px;
+	height: 16px;
+}
